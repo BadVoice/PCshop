@@ -201,7 +201,7 @@ input {
     margin-bottom: 10px;
 }
 
-.course__counter-line, 
+.course__counter-line,
 .course__progress-label {
     color: #FFFFFF40;
 }
@@ -260,9 +260,6 @@ progress::-moz-progress-value {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     height: 6px;
 }
-
-
-
 
 .work {
     padding-top: 20rem;
@@ -383,7 +380,7 @@ progress::-moz-progress-value {
 }
 
 .program-line {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     width: 750px;
 }
@@ -396,7 +393,6 @@ progress::-moz-progress-value {
     text-align: left;
     margin-top: 76px;
 }
-
 
 .program__image {
     margin: 0 auto;
@@ -631,7 +627,9 @@ progress::-moz-progress-value {
     height: 100% !important;
 }
 
+
 /*сетка*/
+
 @media (max-width: 108em) {
     html {
         font-size: 9px;
@@ -722,4 +720,5 @@ progress::-moz-progress-value {
     }
 }
 
-/*сетка*/
+
+/*сетка
