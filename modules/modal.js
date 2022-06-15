@@ -15,20 +15,4 @@
         }
 
 
-        // if (modal.style.display = 'flex') {
-
-        //     modalHide.addEventListener(('click'), (event) => {
-        //         modal.style.display = 'none'
-        //         if (event == modal) {
-        //             modal__inner.forEach((element) => {
-        //                     if (element === modal__inner) {
-        //                         modal.style.display = 'none'
-        //                     }
-        //                 }
-
-        //             )
-        //         }
-        //     })
-        // }
-
     })
