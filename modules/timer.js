@@ -18,8 +18,9 @@ const numWord = (value, words) => {
     if (lastNum == 1) return words[0]
 
     return words[2]
-
 }
+
+
 
 
 const updateTimer = () => {
@@ -46,6 +47,9 @@ const updateTimer = () => {
     secondsBlock.textContent = fSeconds;
 
     secondsBlock.nextElementSibling.textContent = numWord(seconds, ['секунда', 'секунды', 'секунд']);
+    minutesBlock.nextElementSibling.textContent = numWord(minuts, ['минута', 'минуты', 'минут']);
+    hoursBlock.nextElementSibling.textContent = numWord(hours, ['час', 'часов', 'часа']);
+    daysBlock.nextElementSibling.textContent = numWord(days, ['день', 'дня', 'дней']);
 
     if (timeRemaining <= 0) {
         clearInterval(interval)
